@@ -1,0 +1,274 @@
+.navbar-sec {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 9999;
+  padding: 26px 82px;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+}
+
+.navbar-sec .nav-links ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  /* background-color: red; */
+  padding-left: 0px;
+}
+
+.navbar-sec .nav-links ul li {
+  padding: 13px 30px;
+  margin-left: 0px;
+
+  font-family: "Trap300";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.navbar-sec .search-input {
+  /* background-color: red; */
+}
+
+.navbar-sec .search-input input {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  padding: 7px 100px 7px 11px;
+  outline: none;
+
+  color: white;
+  font-family: "Trap600";
+}
+
+.navbar-sec ::-webkit-input-placeholder {
+  /* Edge */
+  font-family: "Trap600";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.navbar-sec :-ms-input-placeholder {
+  /* Internet Explorer */
+  font-family: "Trap600";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.navbar-sec ::placeholder {
+  font-family: "Trap600";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.navbar-sec .btns .login {
+  background: transparent;
+  font-family: "Trap500";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+
+  outline: none;
+  border: none;
+  padding: 0px 40px;
+}
+
+.navbar-sec .btns .wallet {
+  background: #ffffff;
+  border-radius: 3px;
+
+  font-family: "Trap500";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+
+  color: #000000;
+
+  outline: none;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 40px;
+}
+
+/* 1600 */
+@media screen and (max-width: 1700px) {
+  .navbar-sec {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 9999;
+    padding: 21px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+}
+
+/* 1536*/
+@media screen and (max-width: 1536px) {
+  .navbar-sec {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 9999;
+    padding: 21px 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+
+  .navbar-sec .nav-links ul li {
+    padding: 13px 20px;
+    margin-left: 0px;
+    font-family: "Trap300";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .navbar-sec .search-input input {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 7px 30px 7px 11px;
+    outline: none;
+    color: white;
+    font-family: "Trap600";
+  }
+}
+
+/* 1440*/
+@media screen and (max-width: 1440px) {
+  .navbar-sec {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 9999;
+    padding: 21px 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+
+  .navbar-sec .nav-links ul li {
+    padding: 13px 20px;
+    margin-left: 0px;
+    font-family: "Trap300";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .navbar-sec .search-input input {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 7px 30px 7px 11px;
+    outline: none;
+    color: white;
+    font-family: "Trap600";
+  }
+  .navbar-sec .btns .wallet {
+    background: #ffffff;
+    border-radius: 3px;
+    font-family: "Trap500";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    outline: none;
+    border: none;
+    padding: 8px 9px;
+    margin-right: 20px;
+  }
+}
+
+/* 1369*/
+@media screen and (max-width: 1369px) {
+  .navbar-sec .nav-links ul li {
+    padding: 10px 15px;
+    margin-left: 0px;
+    font-family: "Trap300";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .navbar-sec .search-input input {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 5px 0px 5px 8px;
+    outline: none;
+    color: white;
+    font-family: "Trap600";
+  }
+
+  .navbar-sec .btns {
+    margin-top: -7px;
+  }
+
+  .navbar-sec .btns .login {
+    background: transparent;
+    font-family: "Trap500";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    padding: 0px 20px;
+  }
+
+  .navbar-sec .btns .wallet {
+    background: #ffffff;
+    border-radius: 3px;
+    font-family: "Trap500";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    color: #000000;
+    outline: none;
+    border: none;
+    padding: 8px 9px;
+    margin-right: 20px;
+  }
+
+  .partner-sec .partner-inners div {
+    margin: 40px !important;
+  }
+}

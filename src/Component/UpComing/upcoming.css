@@ -1,0 +1,684 @@
+.upcoming-main {
+  background: #000000;
+  width: 100%;
+  overflow: hidden;
+
+  color: white;
+}
+
+.upcoming-main .lady-layer {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 160px;
+  padding-bottom: 100px;
+}
+
+.upcoming-main .lady-layer .left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.upcoming-main .lady-layer .left-side img {
+  max-width: 75% !important;
+}
+
+.upcoming-main .right-side {
+  padding-top: 60px;
+}
+
+.upcoming-main .right-side h1 {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+
+  /* text-align: center; */
+
+  color: #ffffff;
+}
+
+.upcoming-main .right-side p {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #ffffff;
+
+  padding-top: 25px;
+}
+
+.upcoming-main .bid {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 100%;
+}
+
+.upcoming-main .bid h1 {
+  font-family: "Trap600";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+
+.upcoming-main .bid .eth {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 46px;
+
+  color: #ffffff;
+  padding-top: 20px;
+  margin-left: -5px;
+}
+
+.upcoming-main .bid p {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  /* line-height: 26px; */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding-top: 5px;
+}
+
+.upcoming-main .bid .time-countdown {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 46px;
+
+  color: #ffffff;
+
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upcoming-main .bid .time-countdown .time-container {
+  width: 80px;
+}
+
+.upcoming-main .bid .time-countdown .time-unit {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: start;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding-top: 1px;
+}
+
+.divider {
+  background: #d8d8d8;
+  width: 1px;
+  height: 80px;
+
+  margin: auto;
+}
+
+.upcoming-main .btn-lady {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+
+  color: #ffffff;
+
+  border: 1px solid #ffffff;
+  background: transparent;
+  outline: none;
+  padding: 12px 35px;
+  margin-top: 30px;
+}
+
+/* upcoming secttion */
+
+.keepnft {
+  margin-bottom: 30px;
+  overflow-x: hidden;
+}
+.keepnft .keepnft-content {
+  padding: 108px 129px;
+}
+
+.keepnft .keepnft-content .keepnft-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 30px 10px;
+}
+
+.keepnft .keepnft-content .keepnft-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 30px 10px;
+}
+
+/* .keepnft .keepnft-content .section-head h1 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  color: #000000;
+  margin-bottom: 44px;
+} */
+
+.keepnft .keepnft-content .keepnft-heading:nth-child(1) {
+  font-family: "Trap700";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46.4846px;
+  line-height: 51px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.nft-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.keepnft .nft-card-body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.keepnft .nft-card-body .line-img {
+  padding: 20px 0px 5px 0px;
+}
+
+.upcoming-main .time-countdown-card {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upcoming-main .time-countdown-card .card-timing-container {
+  display: flex;
+}
+
+.upcoming-main .time-countdown-card .card-timing-container .timing {
+  font-family: "Trap700";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.upcoming-main .time-countdown-card .time-container {
+  width: 35px;
+}
+
+.upcoming-main .time-countdown-card .time-unit {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 26px;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding-top: 1px;
+}
+
+.upcoming-main .time-countdown-card .upcoming-eth {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+.upcoming-main .card-btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upcoming-main .item-btn {
+  font-family: "Trap500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+
+  padding: 15px 35px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #ffffff;
+}
+
+.upcoming-main .price-btn {
+  font-family: "Trap500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+
+  padding: 15px 20px;
+  background: #ffffff;
+  outline: none;
+  border: 1px solid #ffffff;
+}
+.upcoming-main .slick-prev,
+.slick-next {
+  z-index: 999;
+  top: -13% !important;
+}
+
+.slick-prev {
+  left: 92% !important;
+}
+
+.upcoming-main .slick-next {
+  right: 30px !important;
+}
+
+.slick-prev:before {
+  content: url(../../../public/asset/upcoming/arrow-left.png) !important;
+}
+
+.slick-next:before {
+  content: url(../../../public/asset/upcoming/arrow-right.png) !important;
+}
+
+.viewAllbtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.viewAllbtn button {
+  font-family: "Trap500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  padding: 12px 28px;
+  background: #ffffff;
+  outline: none;
+  border: 1px solid #ffffff;
+  margin: auto;
+  text-transform: capitalize;
+}
+
+/* @media (min-width: 1600px) {
+  .customize-arrows .slick-prev {
+    left: 1379px;
+    top: -20px;
+  }
+  .customize-arrows .slick-next {
+    right: 17px;
+    top: -20px;
+  }
+  #physcialitems .slick-prev {
+    left: 1400px;
+    top: -20px;
+  }
+  section#top-sellers .slick-prev {
+    left: 1400px;
+    top: -20px;
+  }
+} */
+
+/* 1600 responsive */
+@media screen and (max-width: 1800px) {
+  .keepnft .nft-card-header {
+    margin: 15px;
+  }
+
+  .keepnft .nft-card-body {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .upcoming-main .item-btn {
+    font-family: "Trap500";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 12px 22px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #ffffff;
+    margin-top: 1px;
+  }
+  .upcoming-main .price-btn {
+    font-family: "Trap500";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding: 12px 8px;
+    background: #ffffff;
+    outline: none;
+    border: 1px solid #ffffff;
+  }
+}
+
+/* 1536 responsive */
+@media screen and (max-width: 1537px) {
+  .upcoming-main .item-btn {
+    font-family: "Trap500";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 9px 15px !important;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #ffffff;
+  }
+
+  .upcoming-main .price-btn {
+    font-family: "Trap500";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    padding: 15px 20px;
+    background: #ffffff;
+    outline: none;
+    border: 1px solid #ffffff;
+  }
+
+  .upcoming-main .bid h1 {
+    font-family: "Trap600";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  .upcoming-main .bid .eth {
+    font-family: "Trap400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #ffffff;
+    padding-top: 20px;
+    margin-left: -5px;
+  }
+  .upcoming-main .bid p {
+    font-family: "Trap400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-top: 5px;
+  }
+  .upcoming-main .bid .time-countdown {
+    font-family: "Trap400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .upcoming-main .bid .time-countdown .time-container {
+    width: 60px;
+  }
+  .upcoming-main .bid .time-countdown .time-unit {
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+
+    opacity: 0.8;
+  }
+}
+/* 1440 responsive */
+@media screen and (max-width: 1440px) {
+  .upcoming-main .bid h1 {
+    font-family: "Trap600";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  .upcoming-main .bid .eth {
+    font-family: "Trap400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #ffffff;
+    padding-top: 20px;
+    margin-left: -5px;
+  }
+  .upcoming-main .bid p {
+    font-family: "Trap400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-top: 5px;
+  }
+  .upcoming-main .bid .time-countdown {
+    font-family: "Trap400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .upcoming-main .bid .time-countdown .time-container {
+    width: 60px;
+  }
+  .upcoming-main .bid .time-countdown .time-unit {
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+
+    opacity: 0.8;
+  }
+
+  .upcoming-main .item-btn {
+    font-family: "Trap500";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 12px 32px !important;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #ffffff;
+  }
+  .upcoming-main .price-btn {
+    font-family: "Trap500";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding: 12px 28px;
+    background: #ffffff;
+    outline: none;
+    border: 1px solid #ffffff;
+  }
+
+  .slick-prev {
+    left: 90% !important;
+  }
+
+  .upcoming-main .slick-next {
+    right: 30px !important;
+  }
+}
+
+/* 1368 responsive */
+@media screen and (max-width: 1369px) {
+}
+
+/* 1280 responsive */
+@media screen and (max-width: 1281px) {
+  .upcoming-main .right-side .lady {
+    font-family: "Trap400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 65px;
+    /* text-align: center; */
+    color: #ffffff;
+  }
+  .upcoming-main .item-btn {
+    font-family: "Trap500";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 12px 14px !important;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #ffffff;
+  }
+}
+
+/* 1024 responsive */
+@media screen and (max-width: 1025px) {
+  .upcoming-main .lady-layer .left-side img {
+    max-width: 90% !important;
+  }
+  .upcoming-main .right-side .lady {
+    font-family: "Trap400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 35px;
+    /* text-align: center; */
+    color: #ffffff;
+  }
+  .upcoming-main .bid h1 {
+    font-family: "Trap600";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  .upcoming-main .bid h1 {
+    font-family: "Trap600";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  .upcoming-main .bid .time-countdown .time-container {
+    width: 40px;
+  }
+  .upcoming-main .bid .time-countdown .time-unit {
+    font-size: 9px;
+    line-height: 23px;
+    text-align: center;
+    opacity: 0.8;
+  }
+  .upcoming-main .bid .eth {
+    font-family: "Trap400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+    padding-top: 20px;
+    margin-left: -5px;
+  }
+  .upcoming-main .bid p {
+    font-family: "Trap400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-top: 5px;
+  }
+  .slick-prev {
+    left: 87% !important;
+  }
+
+  .upcoming-main .slick-next {
+    right: 30px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .keepnft-content {
+    padding: 50px 70px !important;
+    position: relative;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 480px) {
+  .keepnft {
+    padding-top: 50px !important;
+  }
+  .keepnft-content {
+    padding: 0px 20px !important;
+    padding-bottom: 50px;
+  }
+  .keepnft-content .my-nfts {
+    display: flex !important;
+    justify-content: center;
+  }
+}

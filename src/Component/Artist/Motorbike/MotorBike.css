@@ -1,0 +1,65 @@
+.bike {
+  padding-top: 130px;
+  padding-left: 90px;
+
+  overflow: hidden;
+  width: 100%;
+}
+
+.bike .jiang-miao {
+  display: flex;
+}
+
+.bike .name {
+  font-family: "Trap500";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35.4384px;
+  line-height: 39px;
+  padding-left: 35px;
+  padding-top: 20px;
+
+  color: #000000;
+}
+
+.bike .work {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  padding-left: 35px;
+
+  color: #000000;
+}
+
+.bike-divider {
+  /* border: 1px solid #beb5b5; */
+  background-color: #beb5b5;
+  margin: 80px 50px;
+  padding: 1px 50px;
+  overflow: hidden;
+}
+
+.coming {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coming h2 {
+  font-family: "Trap700";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 51px;
+
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  color: #000000;
+}
