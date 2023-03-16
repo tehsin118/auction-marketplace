@@ -1,0 +1,65 @@
+.work-main {
+  background-color: #f3f3f3;
+  width: 100%;
+  overflow: hidden;
+}
+
+.work-main .work-inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.work-main .work-inner .work-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0px;
+}
+
+.work-main .work-inner .work-title h1 {
+  font-family: "Trap700";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46.4846px;
+  line-height: 51px;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.work-main .work-inner .work-title p {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+
+  color: #000000;
+}
+
+.work-main .work-flowchart {
+  width: 90%;
+  margin: 0 auto;
+  padding: 60px 0px 120px 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .work-main .work-inner .work-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    flex-direction: column;
+  }
+
+  .work-main .work-inner .work-title h1 {
+    font-size: 30px;
+  }
+  .work-main .work-flowchart {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0px 0px 40px 0px;
+  }
+}

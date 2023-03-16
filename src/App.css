@@ -28,3 +28,7 @@
   font-family: "Trap900";
   src: url("./assets/font/Trap-Black.otf");
 }
+
+input::-webkit-inner-spin-button {
+  display: none;
+}
