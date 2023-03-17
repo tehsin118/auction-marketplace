@@ -174,7 +174,9 @@ const MultiArtNFT = () => {
           <div className="explore-live-auction">
             <div className="multiArtNFT-heading">
               <h2>Live Auctions</h2>
-              <h6 onClick={liveAuctionPage}>View All</h6>
+              <h6 onClick={liveAuctionPage} style={{ cursor: "pointer" }}>
+                View All
+              </h6>
             </div>
             <div className="live-auction-cards">
               <Slider {...settings}>
@@ -234,7 +236,7 @@ const MultiArtNFT = () => {
           {/* ----------------------- Trending NFTs*/}
           <div className="explore-live-auction">
             <div className="multiArtNFT-heading">
-              <h2>Trending NFT’s</h2>
+              <h2>Trending Auction</h2>
               <h6>View All</h6>
             </div>
             <div className="live-auction-cards trending-nfts">
@@ -255,15 +257,8 @@ const MultiArtNFT = () => {
                           <span>#{item.nftID}</span>
                         </h2>
                         <h3>
-                          Details
-                          <span>
-                            <Icon
-                              icon="mdi:ethereum"
-                              color="#979797"
-                              width="24"
-                            />
-                            Ethereum
-                          </span>
+                          Price
+                          <span>$ 300</span>
                         </h3>
                         <button>Place Bid</button>
                       </div>

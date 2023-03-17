@@ -105,14 +105,8 @@ const LiveAuction = () => {
                         Details
                         <span>
                           {item.price}
-                          <span>
-                            <Icon
-                              icon="mdi:ethereum"
-                              color="#68ffd8"
-                              width="24"
-                            />
-                          </span>
-                          Ethereum
+                          <span> </span>
+                          USD
                         </span>
                       </h3>
                       <button>Place Bid</button>
@@ -147,15 +141,8 @@ const LiveAuction = () => {
                       <h3>
                         Details
                         <span>
-                          {item.price}
-                          <span>
-                            <Icon
-                              icon="mdi:ethereum"
-                              color="#68ffd8"
-                              width="24"
-                            />
-                          </span>
-                          Ethereum
+                          {item.price + " "}
+                          USD
                         </span>
                       </h3>
                       <button>Ended</button>
@@ -185,7 +172,7 @@ const LiveAuction = () => {
                     <div className="right">
                       <h4>jack</h4>
                       <h4>
-                        3.0<span> ETH</span>
+                        300.0<span> USD</span>
                       </h4>
                     </div>
                   </div>
