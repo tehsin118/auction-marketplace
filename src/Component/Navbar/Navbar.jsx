@@ -46,9 +46,9 @@ const Navbar = () => {
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <Link class="nav-link active" aria-current="page" to="/">
+                  <Link class="nav-link pb-3" aria-current="page" to="/">
                     Home
                   </Link>
                 </li>
@@ -69,19 +69,12 @@ const Navbar = () => {
                     About
                   </NavLink>
                 </li>
-                <input
-                  class="form-control search-bar me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
               </ul>
 
               <div>
                 <button className="login" onClick={navLogin}>
                   Login/Singup
                 </button>
-                <button className="connect-wallet">Connect Wallet</button>
                 <Link to="/edit-profile">
                   <img
                     className="img-fluid"

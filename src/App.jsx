@@ -12,9 +12,9 @@ import EditProfile from "./Component/profile/editProfile/EditProfile";
 function App() {
   return (
     <div>
-      <Navbar />
       {/* <Home /> */}
       {/* <BidPage /> */}
+      <Navbar />
       <Routes>
         <Route path="/logins" element={<PhoneLogin />} />
         <Route path="/" element={<Home />} />
