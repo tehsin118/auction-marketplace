@@ -102,6 +102,9 @@ const BidPage = () => {
   const liveAuctionPage = () => {
     navigate("/liveAuction");
   };
+  const paymentinfo = () => {
+    navigate("/payment-info");
+  };
   return (
     <div>
       <section className="bid-page">
@@ -151,7 +154,7 @@ const BidPage = () => {
                   <h1>your bid</h1>
                   <div>
                     <input type="number" />
-                    <button>Place a Bid</button>
+                    <button onClick={paymentinfo}>Place a Bid</button>
                   </div>
                 </div>
               </div>

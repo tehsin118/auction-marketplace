@@ -3,7 +3,7 @@
   overflow: hidden;
   position: relative;
   z-index: 9999;
-  background-color: rgb(104, 98, 98);
+  background-color: #000000;
 }
 
 .navbar-sec .navbar {

@@ -7,24 +7,6 @@ const Navbar = () => {
   const navLogin = () => {
     navigate("/logins");
   };
-  // const artPass = () => {
-  //   navigate("/mint-artpass");
-  // };
-  // const userLooking = () => {
-  //   navigate("/userLooking");
-  // };
-  // const artist = () => {
-  //   navigate("/artist");
-  // };
-  // const aboutus = () => {
-  //   navigate("/aboutus");
-  // };
-  // const home = () => {
-  //   navigate("/");
-  // };
-  // const explore = () => {
-  //   navigate("/explore");
-  // };
 
   return (
     <>
@@ -32,7 +14,11 @@ const Navbar = () => {
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="/">
-              <img className="img-fluid" src="..\asset\hero\logo.svg" alt="" />
+              <img
+                className="img-fluid nav-logo"
+                src="..\asset\hero\logo.png"
+                alt=""
+              />
             </a>
             <button
               class="navbar-toggler"
@@ -51,22 +37,24 @@ const Navbar = () => {
                   <Link class="nav-link pb-3" aria-current="page" to="/">
                     Home
                   </Link>
+                </li>{" "}
+                <li class="nav-item">
+                  <Link
+                    class="nav-link pb-3"
+                    aria-current="page"
+                    to="/liveAuction"
+                  >
+                    Live Auction
+                  </Link>
                 </li>
-
                 <li class="nav-item page-name">
-                  <NavLink class="nav-link" to="/">
-                    Explore
+                  <NavLink class="nav-link" to="/payment-info">
+                    Payment
                   </NavLink>
                 </li>
                 <li class="nav-item page-name">
-                  <NavLink class="nav-link" to="/artist">
-                    Artist
-                  </NavLink>
-                </li>
-
-                <li class="nav-item page-name">
-                  <NavLink class="nav-link" to="/about-us">
-                    About
+                  <NavLink class="nav-link" to="/message">
+                    Message
                   </NavLink>
                 </li>
               </ul>
@@ -75,7 +63,7 @@ const Navbar = () => {
                 <button className="login" onClick={navLogin}>
                   Login/Singup
                 </button>
-                <Link to="/edit-profile">
+                <Link to="#">
                   <img
                     className="img-fluid"
                     src="..\asset\hero\dp.svg"

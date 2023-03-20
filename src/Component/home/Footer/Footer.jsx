@@ -13,29 +13,29 @@ const Footer = () => {
       <div class="row f-inner">
         <div class="col-lg-4 col-sm-12 f-first-coulmn">
           <img
-            className="img-fluid"
-            src="..\asset\footer\logo_footer.svg"
+            className="img-fluid nav-logo"
+            src="\asset\hero\logo.png"
             alt="logo"
           />
           <p className="sell-art">
             Discover,Collect,Sell the Best
-            <br /> Arts NFT's
+            <br /> Products
           </p>
         </div>
         <div class="col-lg-4 col-sm-12 f-second-coulmn">
           <div className="f-links">
             <span>
-              <a href="/privacy-policy">Privacy Policy</a>
+              <a href="#">Privacy Policy</a>
             </span>
             <span>
-              <a href="/terms&conditions">term & condition</a>
+              <a href="#">term & condition</a>
             </span>
             <span>
-              <a href="/about-us">About Us</a>
+              <a href="#">About Us</a>
             </span>
           </div>
           <div className="f-copyright">
-            Copyright © 2023 MultiArt. All rights reserved
+            Copyright © 2023 Auction Market. All rights reserved
           </div>
         </div>
         <div class="col-lg-4 col-sm-12 f-third-coulmn">

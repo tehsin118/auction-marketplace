@@ -20,7 +20,11 @@ const PhoneLogin = () => {
       <section className="phone-logins">
         <div className="left-phone-logins">
           <Link to="/">
-            <img src="\logins\log.png" alt="" className="img-fluid" />
+            <img
+              src="\asset\hero\logo.png"
+              alt=""
+              className="img-fluid nav-logo"
+            />
           </Link>
           <h1>Join Our Community</h1>
           <div className="social-icons">

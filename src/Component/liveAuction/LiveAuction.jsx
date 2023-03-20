@@ -5,43 +5,35 @@ import "./liveAuction.scss";
 const LiveAuction = () => {
   const liveAuctionCard = [
     {
-      name: "The Hammer",
-      nftID: 16,
-      price: 0.33,
-    },
-
-    {
-      name: "Iron Man",
-      nftID: 36,
-      price: 0.3,
-    },
-
-    {
-      name: "Cat",
-      nftID: 22,
-      price: 0.03,
-    },
-
-    {
       name: "Bull Dog",
-      nftID: 26,
-      price: 0.31,
+      profuctID: 26,
+      price: 301,
+      img: "/bidcollection/nftcard2.png",
     },
 
     {
       name: "The Armsman",
-      nftID: 262,
-      price: 0.223,
+      profuctID: 262,
+      price: 9723,
+      img: "/bidcollection/nftcard2.png",
     },
     {
       name: "The Armsman",
-      nftID: 262,
-      price: 0.223,
+      profuctID: 262,
+      price: 3423,
+      img: "/bidcollection/nftCard.png",
     },
     {
       name: "The Armsman",
-      nftID: 262,
-      price: 0.223,
+      profuctID: 262,
+      price: 3423,
+      img: "/bidcollection/nftCard.png",
+    },
+    {
+      name: "The Armsman",
+      profuctID: 262,
+      price: 2123,
+      img: "/bidcollection/nftCard.png",
     },
   ];
   const navigate = useNavigate();
@@ -62,7 +54,7 @@ const LiveAuction = () => {
         </div>
         <div className="backTab">
           <a href="#">Back</a>
-          <p>NFT”S / Live Auction</p>
+          <p>Product / Live Auction</p>
         </div>
         <div className="containers">
           <div className="live-auctions">
@@ -76,7 +68,8 @@ const LiveAuction = () => {
                   <div className="l-auction-card">
                     <div className="card-head">
                       <img
-                        src="\nftcollection\nftCard.png"
+                        // src="\nftcollection\nftCard.png"
+                        src={item.img}
                         alt=""
                         className="img-fluid"
                       />
@@ -106,14 +99,14 @@ const LiveAuction = () => {
                     <div className="card-details">
                       <h2>
                         {item.name}
-                        <span>#{item.nftID}</span>
+                        <span>#{item.profuctID}</span>
                       </h2>
                       <h3>
                         Details
                         <span>
                           {item.price}
                           <span> </span>
-                          USD
+                          PKR
                         </span>
                       </h3>
                       <button onClick={bidPage}>Place Bid</button>
@@ -134,22 +127,18 @@ const LiveAuction = () => {
                 return (
                   <div className="l-auction-card">
                     <div className="card-head">
-                      <img
-                        src="\nftcollection\nftCard.png"
-                        alt=""
-                        className="img-fluid"
-                      />
+                      <img src={item.img} alt="" className="img-fluid" />
                     </div>
                     <div className="card-details">
                       <h2>
                         {item.name}
-                        <span>#{item.nftID}</span>
+                        <span>#{item.profuctID}</span>
                       </h2>
                       <h3>
                         Details
                         <span>
                           {item.price + " "}
-                          USD
+                          PKR
                         </span>
                       </h3>
                       <button>Ended</button>
@@ -179,7 +168,7 @@ const LiveAuction = () => {
                     <div className="right">
                       <h4>jack</h4>
                       <h4>
-                        300.0<span> USD</span>
+                        300.0<span> PKR</span>
                       </h4>
                     </div>
                   </div>
