@@ -1,274 +1,266 @@
 .navbar-sec {
   width: 100%;
   overflow: hidden;
-  position: absolute;
+  position: relative;
   z-index: 9999;
-  padding: 26px 82px;
-
-  display: flex;
-  justify-content: space-between;
-
-  color: white;
+  background-color: rgb(104, 98, 98);
 }
 
-.navbar-sec .nav-links ul {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  /* background-color: red; */
-  padding-left: 0px;
+.navbar-sec .navbar {
+  padding: 32px 82px;
 }
 
-.navbar-sec .nav-links ul li {
-  padding: 13px 30px;
-  margin-left: 0px;
+.navbar-sec .navbar-nav {
+  padding-left: 140px !important;
+}
 
-  font-family: "Trap300";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
+.navbar ul li a {
+  padding-right: 0rem;
+  padding-left: 0rem;
+  font-family: "Trap700";
+  font-size: 15px;
   line-height: 17px;
-
-  color: #ffffff;
-  cursor: pointer;
+  padding-top: 20px;
+  color: #ffffff !important;
+  text-decoration: none;
 }
-
-.navbar-sec .search-input {
+.navbar ul li a.active {
+  padding-right: 0rem;
+  padding-left: 0rem;
+  font-family: "Trap600";
+  font-size: 15px;
+  line-height: 17px;
+  padding-top: 20px;
   /* background-color: red; */
 }
+.navbar-nav .page-name {
+  padding-left: 60px;
+}
 
-.navbar-sec .search-input input {
-  background-color: transparent;
+.navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav .search-bar {
+  margin-left: 135px;
+  width: 260px;
+  height: 35px;
   border: 1px solid #ffffff;
   border-radius: 3px;
-  padding: 7px 100px 7px 11px;
-  outline: none;
 
-  color: white;
-  font-family: "Trap600";
-}
+  background-color: transparent;
 
-.navbar-sec ::-webkit-input-placeholder {
-  /* Edge */
-  font-family: "Trap600";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 17px;
-
-  color: #ffffff;
-}
-
-.navbar-sec :-ms-input-placeholder {
-  /* Internet Explorer */
-  font-family: "Trap600";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 17px;
-
-  color: #ffffff;
-}
-
-.navbar-sec ::placeholder {
-  font-family: "Trap600";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 17px;
-
-  color: #ffffff;
-}
-
-.navbar-sec .btns .login {
-  background: transparent;
   font-family: "Trap500";
-  font-style: normal;
-  font-weight: 700;
   font-size: 15px;
   line-height: 17px;
-  letter-spacing: -0.01em;
 
   color: #ffffff;
+}
 
+.navbar-nav .search-bar::placeholder {
+  font-family: "Trap500";
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.navbar-nav .form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.navbar-sec .connect-wallet {
+  margin-right: 55px !important;
+  padding: 8px 12px;
   outline: none;
   border: none;
-  padding: 0px 40px;
-}
-
-.navbar-sec .btns .wallet {
   background: #ffffff;
   border-radius: 3px;
 
-  font-family: "Trap500";
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Trap600";
   font-size: 15px;
+  line-height: 17px;
 
   color: #000000;
+}
 
+.navbar-sec .login {
+  margin-right: 55px !important;
+  padding: 8px 12px;
   outline: none;
   border: none;
-  padding: 8px 12px;
-  margin-right: 40px;
+  background: transparent;
+  border-radius: 3px;
+
+  font-family: "Trap600";
+  font-size: 15px;
+  line-height: 17px;
+
+  color: #ffffff;
 }
 
-/* 1600 */
-@media screen and (max-width: 1700px) {
-  .navbar-sec {
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-    z-index: 9999;
-    padding: 21px 20px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-  }
+.form-control:focus {
+  color: white !important;
+  background-color: transparent !important;
+  border-color: white !important;
+  outline: none;
+  box-shadow: none;
 }
 
-/* 1536*/
-@media screen and (max-width: 1536px) {
-  .navbar-sec {
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-    z-index: 9999;
-    padding: 21px 40px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
+/* =============1720============== */
+
+@media screen and (max-width: 1720px) {
+  .navbar-sec .navbar {
+    padding: 10px 70px;
   }
 
-  .navbar-sec .nav-links ul li {
-    padding: 13px 20px;
-    margin-left: 0px;
-    font-family: "Trap300";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 17px;
-    color: #ffffff;
-    cursor: pointer;
+  .navbar-sec .navbar-nav {
+    padding-left: 60px !important;
   }
-
-  .navbar-sec .search-input input {
-    background-color: transparent;
-    border: 1px solid #ffffff;
-    border-radius: 3px;
-    padding: 7px 30px 7px 11px;
-    outline: none;
-    color: white;
-    font-family: "Trap600";
+  .navbar-nav .page-name {
+    padding-left: 30px;
   }
 }
 
-/* 1440*/
-@media screen and (max-width: 1440px) {
-  .navbar-sec {
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-    z-index: 9999;
-    padding: 21px 40px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-  }
+/* =============1580============== */
 
-  .navbar-sec .nav-links ul li {
-    padding: 13px 20px;
-    margin-left: 0px;
-    font-family: "Trap300";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 17px;
-    color: #ffffff;
-    cursor: pointer;
+@media screen and (max-width: 1580px) {
+  .navbar-nav .search-bar {
+    margin-left: 50px;
   }
-
-  .navbar-sec .search-input input {
-    background-color: transparent;
-    border: 1px solid #ffffff;
-    border-radius: 3px;
-    padding: 7px 30px 7px 11px;
-    outline: none;
-    color: white;
-    font-family: "Trap600";
+  .navbar-sec .connect-wallet {
+    margin-right: 20px !important;
   }
-  .navbar-sec .btns .wallet {
-    background: #ffffff;
-    border-radius: 3px;
-    font-family: "Trap500";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    color: #000000;
-    outline: none;
-    border: none;
-    padding: 8px 9px;
-    margin-right: 20px;
+  .navbar-sec .login {
+    margin-right: 12px !important;
   }
 }
 
-/* 1369*/
-@media screen and (max-width: 1369px) {
-  .navbar-sec .nav-links ul li {
-    padding: 10px 15px;
-    margin-left: 0px;
-    font-family: "Trap300";
-    font-style: normal;
-    font-weight: 700;
+/* =============1580============== */
+
+@media screen and (max-width: 1580px) {
+  .navbar-nav .search-bar {
+    margin-left: 50px;
+  }
+  .navbar-sec .connect-wallet {
+    margin-right: 20px !important;
+  }
+  .navbar-sec .login {
+    margin-right: 12px !important;
+  }
+}
+
+/* =============1500============== */
+
+@media screen and (max-width: 1500px) {
+  .navbar-sec .navbar {
+    padding: 10px 50px;
+  }
+  .navbar-nav .page-name {
+    padding-left: 20px;
+  }
+}
+
+/* =============1420============== */
+
+@media screen and (max-width: 1420px) {
+  .navbar-sec .navbar {
+    padding: 10px 30px;
+  }
+}
+
+/* =============1380============== */
+
+@media screen and (max-width: 1380px) {
+  .navbar-sec .navbar {
+    padding: 10px 20px;
+  }
+  .navbar-sec .navbar-nav {
+    padding-left: 45px !important;
+  }
+  .navbar-nav .page-name {
+    padding-left: 15px;
+  }
+  .navbar-sec .connect-wallet {
+    margin-right: 10px !important;
+    font-size: 14px;
+  }
+  .navbar-sec .login {
+    margin-right: 7px !important;
+    padding: 8px 5px;
+    font-size: 14px;
+  }
+}
+
+/* =============1280============== */
+
+@media screen and (max-width: 1280px) {
+  .navbar-sec .navbar-nav {
+    padding-left: 30px !important;
+  }
+  .navbar-nav .page-name {
+    padding-left: 10px;
+  }
+  .navbar-nav .nav-link {
     font-size: 14px;
     line-height: 17px;
-    color: #ffffff;
-    cursor: pointer;
+    padding-top: 15px;
+  }
+  .navbar-nav .search-bar {
+    margin-left: 30px;
+  }
+}
+
+/* =============1210============== */
+
+@media screen and (max-width: 1210px) {
+  .navbar-nav .search-bar {
+    margin-left: 15px;
+  }
+  .navbar-sec .navbar-nav {
+    padding-left: 15px !important;
+  }
+  .navbar-sec .connect-wallet {
+    margin-right: 5px !important;
+    padding: 8px 8px;
+    font-size: 12px;
   }
 
-  .navbar-sec .search-input input {
-    background-color: transparent;
-    border: 1px solid #ffffff;
-    border-radius: 3px;
-    padding: 5px 0px 5px 8px;
-    outline: none;
-    color: white;
-    font-family: "Trap600";
+  .navbar-sec .login {
+    margin-right: 5px !important;
+    padding: 8px 5px;
+    font-size: 12px;
   }
+}
 
-  .navbar-sec .btns {
-    margin-top: -7px;
+/* =============1024============== */
+
+@media screen and (max-width: 1140px) {
+  .navbar-sec .navbar {
+    padding: 10px 5px;
   }
-
-  .navbar-sec .btns .login {
-    background: transparent;
-    font-family: "Trap500";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 17px;
-    letter-spacing: -0.01em;
-    color: #ffffff;
-    outline: none;
-    border: none;
-    padding: 0px 20px;
+  .navbar-sec .navbar-nav {
+    padding-left: 5px !important;
   }
-
-  .navbar-sec .btns .wallet {
-    background: #ffffff;
-    border-radius: 3px;
-    font-family: "Trap500";
-    font-style: normal;
-    font-weight: 700;
+  .navbar-nav .nav-link {
     font-size: 13px;
-    color: #000000;
-    outline: none;
-    border: none;
-    padding: 8px 9px;
-    margin-right: 20px;
+    line-height: 17px;
+    padding-top: 15px;
   }
-
-  .partner-sec .partner-inners div {
-    margin: 40px !important;
+  .navbar-nav .search-bar {
+    margin-left: 7px;
+    font-size: 13px;
+  }
+  .navbar-sec .login {
+    margin-right: 2px !important;
+    padding: 8px 3px;
+    font-size: 12px;
+  }
+  .navbar-sec .connect-wallet {
+    margin-right: 4px !important;
+    padding: 8px 2px;
+    font-size: 12px;
   }
 }

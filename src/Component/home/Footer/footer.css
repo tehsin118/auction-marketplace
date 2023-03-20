@@ -8,8 +8,9 @@
 
 .f-main .f-inner {
   /* background-color: red; */
-  width: 90%;
-  margin: 0 auto;
+  /* width: 90%;
+  margin: 0 auto; */
+  padding: 0px 122px 0px 122px;
 }
 
 .f-main .f-first-coulmn {
@@ -21,14 +22,14 @@
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 28px;
+  line-height: 32px;
 
   color: #ffffff;
   padding-top: 40px;
 }
 
 .f-main .f-second-coulmn {
-  padding-top: 135px;
+  padding-top: 155px;
   padding-bottom: 50px;
   text-align: center;
 }
@@ -37,7 +38,7 @@
   font-family: "Trap500";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
   text-transform: uppercase;
 
@@ -45,16 +46,21 @@
   cursor: pointer;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.f-main .f-second-coulmn a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .f-main .f-copyright {
-  padding-top: 60px;
+  padding-top: 80px;
 
   font-family: "Trap400";
   font-style: normal;
   font-weight: 400;
-  font-size: 22.5684px;
+  font-size: 23px;
   line-height: 25px;
 
   color: #ffffff;
@@ -62,11 +68,39 @@
 
 .f-main .f-third-coulmn {
   padding-top: 130px;
-  text-align: center;
+  text-align: end;
 }
 
 .f-main .f-social-icons a {
   padding: 0px 20px;
+}
+
+@media screen and (max-width: 1800px) {
+  .f-main .f-links {
+    font-size: 18px;
+  }
+  .f-main .f-copyright {
+    font-size: 18px;
+  }
+
+  .f-main .sell-art {
+    font-family: "Trap400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .f-main .f-links {
+    font-size: 16px;
+  }
+  .f-main .f-copyright {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 1441px) {
@@ -88,7 +122,27 @@
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1380px) {
+  .f-main .f-links {
+    font-size: 15px;
+  }
+  .f-main .f-copyright {
+    padding-top: 60px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .f-main .f-links {
+    font-size: 13px;
+  }
+  .f-main .f-copyright {
+    padding-top: 50px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
   .f-main .sell-art {
     font-family: "Trap400";
     font-style: normal;
@@ -99,36 +153,28 @@
     padding-top: 30px;
   }
   .f-main .f-links {
-    font-size: 11px;
+    font-size: 12px;
   }
   .f-main .f-copyright {
     padding-top: 40px;
     font-family: "Trap400";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 25px;
     color: #ffffff;
   }
+
+  .f-main .f-social-icons a {
+    padding: 0px 5px;
+  }
 }
 
-@media screen and (max-width: 600px) {
-  .faq .section-heading p {
-    font-size: 22.7056px;
+@media screen and (max-width: 1180px) {
+  .f-main .f-links {
+    font-size: 11px;
   }
-  .f-main .f-first-coulmn {
-    padding: 50px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .f-main .f-second-coulmn {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    text-align: center;
-  }
-  .f-main .f-third-coulmn {
-    padding-top: 20px;
-    text-align: center;
+  .f-main .f-copyright {
+    font-size: 12px;
   }
 }

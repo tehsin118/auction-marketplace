@@ -8,18 +8,20 @@ import Navbar from "./Component/Navbar/Navbar";
 import Home from "./Pages/Home";
 import MultiArtNFT from "./Component/multiArtnft/multiArtNFT";
 import LiveAuction from "./Component/liveAuction/LiveAuction";
+import EditProfile from "./Component/profile/editProfile/EditProfile";
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       {/* <Home /> */}
       {/* <BidPage /> */}
       <Routes>
-        <Route path="/" element={<PhoneLogin />} />
-        <Route path="/homePage" element={<Home />} />
+        <Route path="/logins" element={<PhoneLogin />} />
+        <Route path="/" element={<Home />} />
         <Route path="/homePage2" element={<MultiArtNFT />} />
         <Route path="/bidPage" element={<BidPage />} />
         <Route path="/liveAuction" element={<LiveAuction />} />
+        <Route path="/edit-profile" element={<EditProfile />} />
       </Routes>
     </div>
   );

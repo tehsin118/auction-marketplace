@@ -19,7 +19,7 @@ const PhoneLogin = () => {
     <div>
       <section className="phone-logins">
         <div className="left-phone-logins">
-          <Link to="/homePage">
+          <Link to="/">
             <img src="\logins\log.png" alt="" className="img-fluid" />
           </Link>
           <h1>Join Our Community</h1>

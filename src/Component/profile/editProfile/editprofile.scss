@@ -1,0 +1,378 @@
+.edit-profile {
+  .back-btn {
+    background-color: #000;
+    padding: 58px 0 44px 260px;
+    a {
+      font-family: "Trap700";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 28px;
+      color: #ffffff;
+      text-transform: capitalize;
+      text-decoration: none;
+    }
+  }
+  .profile-banner {
+    background: #c05f5f;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    h1 {
+      font-family: "Trap400";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 59.0909px;
+      text-transform: capitalize;
+      color: #000000;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    button {
+      position: absolute;
+      right: 3%;
+      bottom: 8%;
+      background-color: transparent;
+      border: none;
+      &:last-child {
+        filter: drop-shadow(0px 7.07871px 7.07871px rgba(0, 0, 0, 0.25));
+        background: rgba(209, 193, 193, 0.8);
+        font-family: "Trap500";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17.8905px;
+        line-height: 20px;
+        color: #000000;
+        padding: 13px 0;
+        width: 180px;
+      }
+    }
+  }
+
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 270px;
+    padding-right: 140px;
+    .left {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      .user-dp {
+        margin-top: -100px;
+        width: 230px;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 6.69127px solid #938282;
+        border-radius: 100%;
+        background-color: #fff;
+        position: relative;
+        overflow: hidden;
+        h6 {
+          font-family: "Trap600";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14.5357px;
+          line-height: 16px;
+          color: #141414;
+          margin-top: 13px;
+          text-align: center;
+          span {
+            color: #51a7f8;
+          }
+        }
+        p {
+          font-family: "Trap600";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 7px;
+          line-height: 10px;
+          color: #979797;
+          text-align: center;
+        }
+        input {
+          display: none;
+        }
+        label {
+          background-color: transparent;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          cursor: pointer;
+          z-index: 2;
+        }
+        .profile-dp {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          z-index: 1;
+        }
+      }
+      .user-details {
+        margin-left: 23px;
+        padding-top: 22px;
+        .user-name {
+          h6 {
+            font-family: "Trap600";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25.624px;
+            color: #000000;
+          }
+        }
+        .user-address {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #000000;
+          border-radius: 23px;
+          width: 160px;
+          padding: 8px 0;
+          p {
+            font-family: "Trap400";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11.5923px;
+            color: #ffffff;
+            line-height: 0;
+            margin-bottom: 0;
+            margin: 0 7px 0 13px;
+          }
+          img {
+            cursor: pointer;
+          }
+        }
+        .user-share {
+          margin-top: 14px;
+          display: flex;
+          align-items: center;
+          .ico {
+            margin-right: 13px;
+            cursor: pointer;
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+      .followers {
+        display: flex;
+        padding-top: 22px;
+        margin-left: 88px;
+        div {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-right: 20px;
+        }
+        h3 {
+          font-family: "Trap500";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15.4563px;
+          line-height: 17px;
+          letter-spacing: 2.89806px;
+          color: #000000;
+          margin-bottom: 11px;
+        }
+        p {
+          font-family: "Trap500";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 11.5923px;
+          line-height: 13px;
+          text-transform: capitalize;
+          color: #5a5a5a;
+        }
+      }
+    }
+    .right {
+      h3 {
+        padding-top: 22px;
+        font-family: "Trap600";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23.4912px;
+        line-height: 26px;
+        color: #141414;
+      }
+      p {
+        font-family: "Trap400";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15.6608px;
+        line-height: 17px;
+
+        color: #000000;
+      }
+
+      .social-ico {
+        display: flex;
+        justify-content: flex-end;
+        .ico {
+          margin-left: 7px;
+        }
+      }
+    }
+  }
+
+  .profile-form {
+    padding-left: 143px;
+    padding-top: 90px;
+    padding-bottom: 130px;
+    padding-right: 280px;
+    .profileTab-btn {
+      background-color: #fff;
+      border: 1px solid #000;
+      width: 275px;
+    }
+    .nav-pills .nav-link {
+      padding: 30px 0;
+      color: #000;
+      font-family: "Trap500";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 21.2718px;
+      line-height: 23px;
+      text-transform: capitalize;
+    }
+    .nav-pills .nav-link.active {
+      color: #fff;
+      background-color: #000;
+      border-radius: 0;
+
+      color: #ffffff;
+      padding: 30px 0;
+    }
+    .tab-content {
+      width: 73%;
+      padding-left: 102px;
+    }
+
+    .profile-form-content {
+      display: flex;
+      flex-direction: column;
+
+      .d-name {
+        border: 1.26436px solid #000000;
+        width: 50%;
+        padding: 25px 15px;
+        font-family: "Trap400";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17.701px;
+        line-height: 19px;
+        color: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin-bottom: 35px;
+        &:focus-visible {
+          border: 1.26436px solid #000000 !important;
+          outline: none;
+        }
+
+        &.profile-description {
+          width: 100%;
+          height: 200px;
+        }
+      }
+
+      .social-links {
+        p {
+          margin-bottom: 35px;
+          font-family: "Trap600";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 17.6419px;
+          line-height: 19px;
+          color: #000000;
+          text-transform: capitalize;
+        }
+        .d-name {
+          width: 100%;
+        }
+      }
+      button {
+        width: 340px;
+        font-family: "Trap500";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17.701px;
+        line-height: 19px;
+        color: #ffffff;
+        background-color: #000;
+        padding: 25px 0;
+        border: none;
+      }
+    }
+  }
+
+  .profile-data {
+    .nav-tabs {
+      border: none;
+      .nav-item {
+        margin-right: 15px;
+      }
+    }
+    .nav-link {
+      font-family: "Trap400";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 16px;
+      padding: 0;
+      color: #000000;
+      border: none;
+      margin-right: 20px;
+      text-transform: capitalize;
+      margin-bottom: 30px;
+
+      &.active {
+        position: relative;
+        &::after {
+          content: "";
+          width: 100%;
+          height: 5px;
+          background-color: #000;
+          position: absolute;
+          bottom: -60%;
+          left: 0;
+          animation: myAnim 2s ease 0s 1 normal forwards;
+        }
+        @keyframes myAnim {
+          0% {
+            opacity: 0;
+            transform: rotateY(100deg);
+            transform-origin: left;
+          }
+
+          100% {
+            opacity: 1;
+            transform: rotateY(0);
+            transform-origin: left;
+          }
+        }
+      }
+    }
+    .tab-content {
+      width: 100%;
+      padding-left: 0;
+    }
+  }
+}

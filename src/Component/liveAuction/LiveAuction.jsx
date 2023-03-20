@@ -1,5 +1,6 @@
 import { Icon } from "@iconify/react";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./liveAuction.scss";
 const LiveAuction = () => {
   const liveAuctionCard = [
@@ -43,6 +44,12 @@ const LiveAuction = () => {
       price: 0.223,
     },
   ];
+  const navigate = useNavigate();
+
+  const bidPage = () => {
+    navigate("/bidPage");
+  };
+
   return (
     <div>
       <section className="live-auction">
@@ -109,7 +116,7 @@ const LiveAuction = () => {
                           USD
                         </span>
                       </h3>
-                      <button>Place Bid</button>
+                      <button onClick={bidPage}>Place Bid</button>
                     </div>
                   </div>
                 );
