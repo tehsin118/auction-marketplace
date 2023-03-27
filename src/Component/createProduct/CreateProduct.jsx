@@ -70,7 +70,6 @@ const CreateProduct = () => {
                 </div>
                 <button>create Product</button>
               </div>
-              a
             </div>
           </div>
         </div>
