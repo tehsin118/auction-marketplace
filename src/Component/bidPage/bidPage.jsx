@@ -118,7 +118,7 @@ const BidPage = () => {
               />
             </div>
             <div className=" right-bid">
-              <h6>collection</h6>
+              <h6>Products</h6>
               <h1 className="product-name">Neon Face Paint</h1>
 
               <div className="bidding-box">
@@ -227,42 +227,19 @@ const BidPage = () => {
               </div>
               <div className="bid-detail-content">
                 <div className="w-50">
-                  <h4>Blockchain</h4>
+                  <h4>Model</h4>
                 </div>
                 <div className="w-50">
-                  <p>Ethereum</p>
+                  <p>2019</p>
                 </div>
               </div>
               <div className="bid-detail-content">
                 <div className="w-50">
-                  <h4>Token Standard</h4>
+                  <h4>Manufacure </h4>
                 </div>
                 <div className="w-50">
-                  <p>ERC-721</p>
+                  <p>xyz</p>
                 </div>
-              </div>
-              <div className="bid-detail-content">
-                <div className="w-50">
-                  <h4>Contract Address</h4>
-                </div>
-                <div className="w-50">
-                  <p style={{ color: "#69FFA5" }}>0x9383…0493</p>
-                </div>
-              </div>
-              <div className="bid-detail-content">
-                <div className="w-50">
-                  <h4>Royalty Fee</h4>
-                </div>
-                <div className="w-50">
-                  <p></p>
-                </div>
-              </div>
-              <div className="bid-detail-content">
-                <div className="w-50">
-                  <h4>Platform</h4>
-                </div>
-                <div className="w-50"> </div>
-                <p></p>
               </div>
             </div>
           </div>

@@ -8,32 +8,32 @@ const LiveAuction = () => {
       name: "Bull Dog",
       profuctID: 26,
       price: 301,
-      img: "/bidcollection/nftcard2.png",
+      img: "/bidcollection/card2.png",
     },
 
     {
       name: "The Armsman",
       profuctID: 262,
       price: 9723,
-      img: "/bidcollection/nftcard2.png",
+      img: "/bidcollection/card2.png",
     },
     {
       name: "The Armsman",
       profuctID: 262,
       price: 3423,
-      img: "/bidcollection/nftCard.png",
+      img: "/bidcollection/card2.png",
     },
     {
       name: "The Armsman",
       profuctID: 262,
       price: 3423,
-      img: "/bidcollection/nftCard.png",
+      img: "/bidcollection/card2.png",
     },
     {
       name: "The Armsman",
       profuctID: 262,
       price: 2123,
-      img: "/bidcollection/nftCard.png",
+      img: "/bidcollection/card2.png",
     },
   ];
   const navigate = useNavigate();
@@ -68,7 +68,7 @@ const LiveAuction = () => {
                   <div className="l-auction-card">
                     <div className="card-head">
                       <img
-                        // src="\nftcollection\nftCard.png"
+                        // src="\nftcollection\card2.png"
                         src={item.img}
                         alt=""
                         className="img-fluid"

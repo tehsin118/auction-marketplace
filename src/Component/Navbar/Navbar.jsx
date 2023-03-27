@@ -37,33 +37,38 @@ const Navbar = () => {
                   <Link class="nav-link pb-3" aria-current="page" to="/">
                     Home
                   </Link>
-                </li>{" "}
+                </li>
+
                 <li class="nav-item">
                   <Link
                     class="nav-link pb-3"
                     aria-current="page"
-                    to="/liveAuction"
+                    to="/payment-info"
                   >
-                    Live Auction
+                    Payment
                   </Link>
                 </li>
-                <li class="nav-item page-name">
-                  <NavLink class="nav-link" to="/payment-info">
-                    Payment
-                  </NavLink>
-                </li>
-                <li class="nav-item page-name">
-                  <NavLink class="nav-link" to="/message">
+                <li class="nav-item">
+                  <Link class="nav-link pb-3" aria-current="page" to="/message">
                     Message
-                  </NavLink>
+                  </Link>
+                </li>
+                <li class="nav-item">
+                  <Link
+                    class="nav-link pb-3"
+                    aria-current="page"
+                    to="/create-product"
+                  >
+                    Add New Product
+                  </Link>
                 </li>
               </ul>
 
-              <div>
+              <div className="log-btn">
                 <button className="login" onClick={navLogin}>
                   Login/Singup
                 </button>
-                <Link to="#">
+                <Link to="profile">
                   <img
                     className="img-fluid"
                     src="..\asset\hero\dp.svg"
