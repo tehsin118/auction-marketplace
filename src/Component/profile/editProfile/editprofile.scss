@@ -753,8 +753,8 @@
           }
         }
 
-        // ---------------Trending NFTs
-        &.trending-nfts {
+        // ---------------Trending products
+        &.trending-products {
           .l-auction-card {
             background-color: transparent;
             padding: 0;
@@ -1124,7 +1124,7 @@
       }
     }
   }
-  .sellnft-profile {
+  .sellproduct-profile {
     .nav-tabs {
       border: none;
       .nav-item {
@@ -1177,8 +1177,8 @@
     }
   }
 
-  .nftList-table {
-    .nftList-table-content {
+  .productList-table {
+    .productList-table-content {
       display: grid;
       grid-template-columns: 120px 200px 180px 180px 200px 140px 160px;
       grid-template-rows: repeat(auto);
@@ -1965,8 +1965,8 @@
             }
           }
 
-          // ---------------Trending NFTs
-          &.trending-nfts {
+          // ---------------Trending products
+          &.trending-products {
             .l-auction-card {
               background-color: transparent;
               padding: 0;
@@ -2324,8 +2324,8 @@
       }
     }
 
-    .nftList-table {
-      .nftList-table-content {
+    .productList-table {
+      .productList-table-content {
         padding: 22px 22px 15px 0px;
         border-radius: 16px;
         display: grid;
@@ -2910,7 +2910,7 @@
       }
     }
 
-    .nftList-table {
+    .productList-table {
       border-radius: 16px;
       padding: 10px 15px 15px 10px;
     }
@@ -3182,8 +3182,8 @@
             }
           }
 
-          // ---------------Trending NFTs
-          &.trending-nfts {
+          // ---------------Trending products
+          &.trending-products {
             .l-auction-card {
               .card-details {
                 margin-top: 15px;
@@ -3229,10 +3229,10 @@
         }
       }
     }
-    .nftList-table {
+    .productList-table {
       border-radius: 16px;
       padding: 0px 15px 15px 10px;
-      .nftList-table-content {
+      .productList-table-content {
         &::-webkit-scrollbar {
           height: 3px;
           padding: 10px;
@@ -3571,8 +3571,8 @@
             }
           }
 
-          // ---------------Trending NFTs
-          &.trending-nfts {
+          // ---------------Trending products
+          &.trending-products {
             .l-auction-card {
               .card-details {
                 margin-top: 15px;
@@ -3653,7 +3653,7 @@
       }
     }
 
-    .sellnft-profile {
+    .sellproduct-profile {
       margin-top: 20px;
       .nav-tabs {
         .nav-item {
@@ -3668,10 +3668,10 @@
       }
     }
 
-    .nftList-table {
+    .productList-table {
       border-radius: 16px;
       padding: 0px;
-      .nftList-table-content {
+      .productList-table-content {
         &::-webkit-scrollbar {
           height: 3px;
           padding: 10px;
@@ -3820,7 +3820,7 @@
     }
   }
 }
-.nftlist-modal {
+.productlist-modal {
   .modal-body {
     padding: 50px 0;
     .select-val {
@@ -3881,7 +3881,7 @@
       }
     }
 
-    .create-nft-btn {
+    .create-product-btn {
       width: 80%;
       margin: auto;
       margin-top: 20px;

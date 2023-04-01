@@ -5,18 +5,18 @@ import "./createProduct.scss";
 const CreateProduct = () => {
   return (
     <div>
-      <section className="create-nft ">
-        <div className="multiArtNFT-banner">
+      <section className="create-product ">
+        <div className="multiArtproduct-banner">
           <h1>New Product</h1>
           <div className="multiart-btns">
-            <button>Create NFT</button>
-            <button>Mint NFT</button>
+            <button>Create product</button>
+            <button>Mint product</button>
           </div>
           <div className="shade"></div>
         </div>
 
         <div className="container">
-          <div className="create-nft-content">
+          <div className="create-product-content">
             <div className="left">
               <h5>upload file</h5>
               <h6>Drag or Choose your file to upload</h6>
@@ -31,15 +31,15 @@ const CreateProduct = () => {
               </div>
             </div>
             <div className="right">
-              <div className="nft-data">
-                <div className="nft-entries">
+              <div className="product-data">
+                <div className="product-entries">
                   <p>item name</p>
                   <input type="text" />
 
                   <p className="mt-3">Description</p>
                   <textarea name="" id="" className="text-area" />
                 </div>
-                <div className="row mt-3 nft-entries custom-select">
+                <div className="row mt-3 product-entries custom-select">
                   <div className="col-md-4 col-12">
                     <p>Property 1</p>
                     <input type="text" placeholder="Properties" />
@@ -54,7 +54,7 @@ const CreateProduct = () => {
                   </div>
                 </div>
 
-                <div className="row mt-3 nft-entries custom-select">
+                <div className="row mt-3 product-entries custom-select">
                   <div className="col-md-4 col-12">
                     <p>Start Date</p>
                     <input type="date" placeholder="Fixed Price" />

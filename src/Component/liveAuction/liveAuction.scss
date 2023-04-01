@@ -1,9 +1,10 @@
 .live-auction {
-  .multiArtNFT-banner {
+  .multiArtproduct-banner {
     background-color: rgb(3, 3, 3);
     padding-top: 300px;
     padding-bottom: 240px;
-    background-image: url("../../..bidcollection/banner.png");
+    // background-image: url("../../..bidcollection/banner.png");
+    background-image: url("../../../bidcollection/banner.webp");
     background-size: cover;
     h1 {
       font-family: "Trap800";
@@ -54,7 +55,7 @@
       margin-bottom: 0;
     }
   }
-  .ArtNFT-heading {
+  .Artproduct-heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -188,7 +189,7 @@
       }
     }
 
-    // ---------------Trending NFTs
+    // ---------------Trending Product
     &.auction-ended {
       .l-auction-card {
         .card-head {
@@ -353,7 +354,7 @@
       padding: 140px 100px;
     }
 
-    .multiArtNFT-banner {
+    .multiArtproduct-banner {
       padding-top: 180px;
       padding-bottom: 180px;
       h1 {
@@ -362,6 +363,11 @@
       p {
         font-size: 32px;
       }
+    }
+
+    .live-auction-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 }

@@ -30,31 +30,31 @@ const EditProfile = () => {
   const liveAuctionCard = [
     {
       name: "The Hammer",
-      nftID: 16,
+      productID: 16,
       price: 0.33,
     },
 
     {
       name: "Iron Man",
-      nftID: 36,
+      productID: 36,
       price: 0.3,
     },
 
     {
       name: "Cat",
-      nftID: 22,
+      productID: 22,
       price: 0.03,
     },
 
     {
       name: "Bull Dog",
-      nftID: 26,
+      productID: 26,
       price: 0.31,
     },
 
     {
       name: "The Armsman",
-      nftID: 262,
+      productID: 262,
       price: 0.223,
     },
   ];
@@ -207,7 +207,7 @@ const EditProfile = () => {
                 class="nav-link"
                 id="v-pills-settings-tab"
                 data-bs-toggle="pill"
-                data-bs-target="#sellnfttab"
+                data-bs-target="#sellproducttab"
                 type="button"
                 role="tab"
                 aria-controls="v-pills-settings"
@@ -429,8 +429,8 @@ const EditProfile = () => {
 
                     {/* Activites */}
                     <Tab eventKey="Activities" title={<span>Activities</span>}>
-                      <div className="nftList-table">
-                        <div className="nftList-table-content activity-table-content">
+                      <div className="productList-table">
+                        <div className="productList-table-content activity-table-content">
                           <div className="head">
                             <h6>Event</h6>
                             <p>Listed</p>
@@ -464,7 +464,7 @@ const EditProfile = () => {
                           </div>
                         </div>
 
-                        <div className="nftList-table-content activity-table-content">
+                        <div className="productList-table-content activity-table-content">
                           <div className="head">
                             <h6>Event</h6>
                             <p>Listed</p>
@@ -671,7 +671,7 @@ const EditProfile = () => {
                           disabled
                         ></Tab>
                       </Tabs>
-                      <h6>New to NFT? Learn more about wallets</h6>
+                      <h6>New to product? Learn more about wallets</h6>
                       <h6>
                         By clicking contine you indicate that you have read and
                         agree to our
@@ -744,26 +744,26 @@ const EditProfile = () => {
                 </div>
               </div>
 
-              {/* Sell NFT */}
+              {/* Sell product */}
 
               <div
                 class="tab-pane fade"
-                id="sellnfttab"
+                id="sellproducttab"
                 role="tabpanel"
                 aria-labelledby="v-pills-settings-tab"
               >
-                <div className="sellnft-profile">
+                <div className="sellproduct-profile">
                   <Tabs
                     id="controlled-tab-example"
                     activeKey={sellkey}
                     onSelect={(k) => setSellKey(k)}
                     className="mb-3 "
                   >
-                    {/* nft List */}
+                    {/* product List */}
 
                     <Tab eventKey="sell" title={<span>Products</span>}>
-                      <div className="nftList-table">
-                        <div className="nftList-table-content">
+                      <div className="productList-table">
+                        <div className="productList-table-content">
                           <div className="head">
                             <h6>Event</h6>
                             <p>Listed</p>
@@ -800,7 +800,7 @@ const EditProfile = () => {
                           </div>
                         </div>
 
-                        <div className="nftList-table-content">
+                        <div className="productList-table-content">
                           <div className="head">
                             <h6>Event</h6>
                             <p>Listed</p>
@@ -837,7 +837,7 @@ const EditProfile = () => {
                           </div>
                         </div>
 
-                        <div className="nftList-table-content">
+                        <div className="productList-table-content">
                           <div className="head">
                             <h6>Event</h6>
                             <p>Listed</p>

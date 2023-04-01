@@ -45,7 +45,7 @@ const LiveAuction = () => {
   return (
     <div>
       <section className="live-auction">
-        <div className="multiArtNFT-banner">
+        <div className="multiArtproduct-banner">
           <h1>
             <span>Live </span>
             Auctions
@@ -58,7 +58,7 @@ const LiveAuction = () => {
         </div>
         <div className="containers">
           <div className="live-auctions">
-            <div className="ArtNFT-heading">
+            <div className="Artproduct-heading">
               <h2>Live Auctions</h2>
             </div>
 
@@ -67,12 +67,7 @@ const LiveAuction = () => {
                 return (
                   <div className="l-auction-card">
                     <div className="card-head">
-                      <img
-                        // src="\nftcollection\card2.png"
-                        src={item.img}
-                        alt=""
-                        className="img-fluid"
-                      />
+                      <img src={item.img} alt="" className="img-fluid" />
 
                       <div className="auction-timer">
                         <div className="day">
@@ -118,7 +113,7 @@ const LiveAuction = () => {
           </div>
 
           <div className="live-auctions ">
-            <div className="ArtNFT-heading">
+            <div className="Artproduct-heading">
               <h2>Auctions Ended</h2>
             </div>
 
@@ -150,7 +145,7 @@ const LiveAuction = () => {
           </div>
 
           <div className="auction-winner">
-            <div className="ArtNFT-heading">
+            <div className="Artproduct-heading">
               <h2>Auctions Winner</h2>
             </div>
 

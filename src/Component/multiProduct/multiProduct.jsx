@@ -1,5 +1,5 @@
 import React from "react";
-import "./multiartnft.scss";
+import "./multiproduct.scss";
 import { Icon } from "@iconify/react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -127,31 +127,31 @@ const MultiProduct = () => {
   const liveAuctionCard = [
     {
       name: "The Hammer",
-      nftID: 16,
+      productID: 16,
       price: 33000,
     },
 
     {
       name: "Iron Man",
-      nftID: 36,
+      productID: 36,
       price: 2303,
     },
 
     {
       name: "Cat",
-      nftID: 22,
+      productID: 22,
       price: 203,
     },
 
     {
       name: "Bull Dog",
-      nftID: 26,
+      productID: 26,
       price: 0.31,
     },
 
     {
       name: "The Armsman",
-      nftID: 262,
+      productID: 262,
       price: 0.223,
     },
   ];
@@ -165,14 +165,14 @@ const MultiProduct = () => {
   };
   return (
     <div>
-      <section className="multiArtNFT">
-        <div className="multiArtNFT-banner">
+      <section className="multiArtproduct">
+        <div className="multiArtproduct-banner">
           <h1> Auction Market.</h1>
         </div>
         <div className="containers">
           {/* ----------------------- Live Auction */}
           <div className="explore-live-auction">
-            <div className="multiArtNFT-heading">
+            <div className="multiArtproduct-heading">
               <h2>Live Auctions</h2>
               <h6 onClick={liveAuctionPage} style={{ cursor: "pointer" }}>
                 View All
@@ -185,7 +185,7 @@ const MultiProduct = () => {
                     <div className="l-auction-card">
                       <div className="card-head">
                         <img
-                          src="\bidcollection\nftCard.png"
+                          src="\bidcollection\productCard.png"
                           alt=""
                           className="img-fluid"
                         />
@@ -215,7 +215,7 @@ const MultiProduct = () => {
                       <div className="card-details">
                         <h2>
                           {item.name}
-                          <span>#{item.nftID}</span>
+                          <span>#{item.productID}</span>
                         </h2>
                         <h3>
                           Price
@@ -233,20 +233,20 @@ const MultiProduct = () => {
             </div>
           </div>
 
-          {/* ----------------------- Trending NFTs*/}
+          {/* ----------------------- Trending products*/}
           <div className="explore-live-auction">
-            <div className="multiArtNFT-heading">
+            <div className="multiArtproduct-heading">
               <h2>Trending Auction</h2>
               <h6>View All</h6>
             </div>
-            <div className="live-auction-cards trending-nfts">
+            <div className="live-auction-cards trending-products">
               <Slider {...settings}>
                 {liveAuctionCard.map((item) => {
                   return (
                     <div className="l-auction-card">
                       <div className="card-head">
                         <img
-                          src="\bidcollection\nftCard.png"
+                          src="\bidcollection\productCard.png"
                           alt=""
                           className="img-fluid"
                         />
@@ -254,7 +254,7 @@ const MultiProduct = () => {
                       <div className="card-details">
                         <h2>
                           {item.name}
-                          <span>#{item.nftID}</span>
+                          <span>#{item.productID}</span>
                         </h2>
                         <h3>
                           Price

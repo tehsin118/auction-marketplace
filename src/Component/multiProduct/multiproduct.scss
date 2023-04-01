@@ -1,7 +1,7 @@
-.multiArtNFT {
+.multiArtproduct {
   margin-bottom: 190px;
 
-  .multiArtNFT-banner {
+  .multiArtproduct-banner {
     background-color: rgb(3, 3, 3);
     padding-top: 300px;
     padding-bottom: 240px;
@@ -51,7 +51,7 @@
   .containers {
     padding: 0 160px;
   }
-  .multiArtNFT-heading {
+  .multiArtproduct-heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -187,8 +187,8 @@
       }
     }
 
-    // ---------------Trending NFTs
-    &.trending-nfts {
+    // ---------------Trending products
+    &.trending-products {
       .l-auction-card {
         background-color: transparent;
         padding: 0;
@@ -249,7 +249,7 @@
     }
   }
 
-  .multiArt-nfts {
+  .multiArt-products {
     .multiArtArtist-card {
       background-image: url("../../../bidcollection/multiartCard.png");
       background-color: #fff;
@@ -458,7 +458,7 @@
 }
 
 @media screen and (max-width: 1900px) {
-  .multiArtNFT {
+  .multiArtproduct {
     .multiArt-collections {
       .multiArt-collections-card {
         width: 480px;
@@ -484,7 +484,7 @@
 }
 
 @media screen and (max-width: 1850px) {
-  .multiArtNFT {
+  .multiArtproduct {
     .slick-arrow.slick-next {
       top: -20%;
       right: 1%;
@@ -503,7 +503,7 @@
       }
     }
 
-    .multiArt-nfts {
+    .multiArt-products {
       .multiArtArtist-card {
         max-width: 310px;
         height: 300px;
@@ -528,7 +528,7 @@
 }
 
 @media screen and (max-width: 1700px) {
-  .multiArtNFT {
+  .multiArtproduct {
     .multiArt-collections {
       .multiArt-collections-card {
         width: 410px;
@@ -562,8 +562,8 @@
   }
 }
 @media screen and (max-width: 1600px) {
-  .multiArtNFT {
-    .multiArtNFT-heading {
+  .multiArtproduct {
+    .multiArtproduct-heading {
       width: 87%;
       margin-bottom: 55px;
       margin-top: 55px;
@@ -592,7 +592,7 @@
       }
     }
 
-    .multiArt-nfts {
+    .multiArt-products {
       .multiArtArtist-card {
         max-width: 370px;
         height: 330px;
@@ -641,8 +641,8 @@
 }
 
 @media screen and (max-width: 1450px) {
-  .multiArtNFT {
-    .multiArtNFT-banner {
+  .multiArtproduct {
+    .multiArtproduct-banner {
       padding-top: 180px;
       padding-bottom: 180px;
       margin-bottom: 80px;
@@ -665,7 +665,7 @@
       padding: 0 110px;
     }
 
-    .multiArtNFT-heading {
+    .multiArtproduct-heading {
       width: 87%;
       margin-bottom: 55px;
       margin-top: 55px;
@@ -694,7 +694,7 @@
       }
     }
 
-    .multiArt-nfts {
+    .multiArt-products {
       .multiArtArtist-card {
         max-width: 320px;
         height: 310px;
@@ -743,7 +743,7 @@
 }
 
 @media screen and (max-width: 1310px) {
-  .multiArtNFT {
+  .multiArtproduct {
     .multiArt-collections {
       .multiArt-collections-card {
         width: 470px;
@@ -778,8 +778,8 @@
 }
 
 @media screen and (max-width: 1210px) {
-  .multiArtNFT {
-    .multiArtNFT-banner {
+  .multiArtproduct {
+    .multiArtproduct-banner {
       padding-top: 180px;
       padding-bottom: 180px;
       margin-bottom: 80px;
@@ -802,7 +802,7 @@
       padding: 0 100px;
     }
 
-    .multiArtNFT-heading {
+    .multiArtproduct-heading {
       width: 80%;
       margin-bottom: 40px;
       margin-top: 40px;
@@ -831,7 +831,7 @@
       }
     }
 
-    .multiArt-nfts {
+    .multiArt-products {
       .multiArtArtist-card {
         max-width: 360px;
         height: 330px;
@@ -880,8 +880,8 @@
 }
 
 @media screen and (max-width: 610px) {
-  .multiArtNFT {
-    .multiArtNFT-banner {
+  .multiArtproduct {
+    .multiArtproduct-banner {
       padding-top: 100px;
       padding-bottom: 100px;
       margin-bottom: 80px;
@@ -906,7 +906,7 @@
       padding: 0 20px;
     }
 
-    .multiArtNFT-heading {
+    .multiArtproduct-heading {
       width: 80%;
       margin-bottom: 40px;
       margin-top: 40px;
@@ -945,7 +945,7 @@
       }
     }
 
-    .multiArt-nfts {
+    .multiArt-products {
       .multiArtArtist-card {
         max-width: 360px;
         height: 330px;

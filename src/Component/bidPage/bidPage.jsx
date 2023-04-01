@@ -66,31 +66,31 @@ const BidPage = () => {
   const liveAuctionCard = [
     {
       name: "The Hammer",
-      nftID: 16,
+      productID: 16,
       price: 0.33,
     },
 
     {
       name: "Iron Man",
-      nftID: 36,
+      productID: 36,
       price: 0.3,
     },
 
     {
       name: "Cat",
-      nftID: 22,
+      productID: 22,
       price: 0.03,
     },
 
     {
       name: "Bull Dog",
-      nftID: 26,
+      productID: 26,
       price: 0.31,
     },
 
     {
       name: "The Armsman",
-      nftID: 262,
+      productID: 262,
       price: 0.223,
     },
   ];
@@ -243,12 +243,130 @@ const BidPage = () => {
               </div>
             </div>
           </div>
+
+          <h3 className="mt-3">Review</h3>
+          <div className="review-product mt-2">
+            <div className="review-container">
+              <div className="left d-flex align-items-center">
+                <img src="\bidding\bidder.png" alt="" />
+                <div>
+                  <h6>
+                    Cobus Bester
+                    <span>– June 7, 2013</span>
+                  </h6>
+                  <p>
+                    This album proves why The Woo are the best band ever. Best
+                    music ever!
+                  </p>
+                </div>
+              </div>
+              <div className="right">
+                <Icon
+                  icon="ic:round-star"
+                  color="#000"
+                  width="24"
+                  height="24"
+                  className="ico"
+                />
+                <Icon
+                  icon="ic:round-star"
+                  color="#000"
+                  width="24"
+                  height="24"
+                  className="ico"
+                />
+                <Icon
+                  icon="ic:round-star"
+                  color="#000"
+                  width="24"
+                  height="24"
+                  className="ico"
+                />
+                <Icon
+                  icon="ic:round-star"
+                  color="#000"
+                  width="24"
+                  height="24"
+                  className="ico"
+                />
+                <Icon
+                  icon="ic:round-star-border"
+                  color="#000"
+                  width="24"
+                  height="24"
+                  className="ico"
+                />
+              </div>
+            </div>
+            <div className="review-wrapper">
+              <p>
+                Your email address will not be published. Required fields are
+                marked *
+              </p>
+              <p>
+                Your rating *
+                <div className="icon">
+                  <Icon
+                    icon="ic:round-star-border"
+                    color="#000"
+                    width="24"
+                    height="24"
+                    className="r-ico"
+                  />
+                  <Icon
+                    icon="ic:round-star-border"
+                    color="#000"
+                    width="24"
+                    height="24"
+                    className="r-ico"
+                  />
+                  <Icon
+                    icon="ic:round-star-border"
+                    color="#000"
+                    width="24"
+                    height="24"
+                    className="r-ico"
+                  />
+                  <Icon
+                    icon="ic:round-star-border"
+                    color="#000"
+                    width="24"
+                    height="24"
+                    className="r-ico"
+                  />
+                  <Icon
+                    icon="ic:round-star-border"
+                    color="#000"
+                    width="24"
+                    height="24"
+                    className="r-ico"
+                  />
+                </div>
+              </p>
+              <p>Your review *</p>
+
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="5"
+                placeholder="Review"
+                className="review-area"
+              ></textarea>
+
+              <div className="name-mail">
+                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Email" />
+              </div>
+              <button>Submit</button>
+            </div>
+          </div>
         </div>
       </section>
-      <div className="multiArtNFT">
+      <div className="multiArtproduct">
         <div className="containers">
           <div className="explore-live-auction">
-            <div className="multiArtNFT-heading">
+            <div className="multiArtproduct-heading">
               <h2>Live Auctions</h2>
               <h6 onClick={liveAuctionPage} style={{ cursor: "pointer" }}>
                 View All
@@ -262,7 +380,7 @@ const BidPage = () => {
                     <div className="l-auction-card">
                       <div className="card-head">
                         <img
-                          src="\nftcollection\nftCard.png"
+                          src="\productcollection\productCard.png"
                           alt=""
                           className="img-fluid"
                         />
@@ -292,7 +410,7 @@ const BidPage = () => {
                       <div className="card-details">
                         <h2>
                           {item.name}
-                          <span>#{item.nftID}</span>
+                          <span>#{item.productID}</span>
                         </h2>
                         <h3>
                           Price

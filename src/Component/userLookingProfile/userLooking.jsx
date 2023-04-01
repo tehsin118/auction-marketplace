@@ -7,24 +7,24 @@ const UserLooking = () => {
   const liveAuctionCard = [
     {
       name: "The Hammer",
-      nftID: 16,
+      productID: 16,
       price: 0.33,
     },
 
     {
       name: "Iron Man",
-      nftID: 36,
+      productID: 36,
       price: 0.3,
     },
 
     {
       name: "Iron Man",
-      nftID: 36,
+      productID: 36,
       price: 0.3,
     },
     {
       name: "Iron Man",
-      nftID: 36,
+      productID: 36,
       price: 0.3,
     },
   ];
@@ -143,7 +143,7 @@ const UserLooking = () => {
               <div className="p-card">
                 <div className="multiArt-collections-card">
                   <div className="card-back">
-                    <img src="\nftcollection\collection.png" alt="" />
+                    <img src="\productcollection\collection.png" alt="" />
                   </div>
                   <div className="verify-badge">
                     <p>
@@ -169,16 +169,16 @@ const UserLooking = () => {
 
                   <div className="collection-thumbnail">
                     <div>
-                      <img src="\nftcollection\thumbnail.png" alt="" />
+                      <img src="\productcollection\thumbnail.png" alt="" />
                     </div>
                     <div>
-                      <img src="\nftcollection\thumbnail1.png" alt="" />
+                      <img src="\productcollection\thumbnail1.png" alt="" />
                     </div>
                     <div>
-                      <img src="\nftcollection\thumbnail2.png" alt="" />
+                      <img src="\productcollection\thumbnail2.png" alt="" />
                     </div>
                     <div>
-                      <img src="\nftcollection\thumbnail3.png" alt="" />
+                      <img src="\productcollection\thumbnail3.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -197,7 +197,7 @@ const UserLooking = () => {
               <div className="p-card">
                 <div className="multiArt-collections-card">
                   <div className="card-back">
-                    <img src="\nftcollection\collection.png" alt="" />
+                    <img src="\productcollection\collection.png" alt="" />
                   </div>
                   <div className="verify-badge">
                     <p>
@@ -223,16 +223,16 @@ const UserLooking = () => {
 
                   <div className="collection-thumbnail">
                     <div>
-                      <img src="\nftcollection\thumbnail.png" alt="" />
+                      <img src="\productcollection\thumbnail.png" alt="" />
                     </div>
                     <div>
-                      <img src="\nftcollection\thumbnail1.png" alt="" />
+                      <img src="\productcollection\thumbnail1.png" alt="" />
                     </div>
                     <div>
-                      <img src="\nftcollection\thumbnail2.png" alt="" />
+                      <img src="\productcollection\thumbnail2.png" alt="" />
                     </div>
                     <div>
-                      <img src="\nftcollection\thumbnail3.png" alt="" />
+                      <img src="\productcollection\thumbnail3.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -251,7 +251,7 @@ const UserLooking = () => {
               <div className="p-card">
                 <div className="multiArt-collections-card">
                   <div className="card-back">
-                    <img src="\nftcollection\collection.png" alt="" />
+                    <img src="\productcollection\collection.png" alt="" />
                   </div>
                   <div className="verify-badge">
                     <p>
@@ -277,16 +277,16 @@ const UserLooking = () => {
 
                   <div className="collection-thumbnail">
                     <div>
-                      <img src="\nftcollection\thumbnail.png" alt="" />
+                      <img src="\productcollection\thumbnail.png" alt="" />
                     </div>
                     <div>
-                      <img src="\nftcollection\thumbnail1.png" alt="" />
+                      <img src="\productcollection\thumbnail1.png" alt="" />
                     </div>
                     <div>
-                      <img src="\nftcollection\thumbnail2.png" alt="" />
+                      <img src="\productcollection\thumbnail2.png" alt="" />
                     </div>
                     <div>
-                      <img src="\nftcollection\thumbnail3.png" alt="" />
+                      <img src="\productcollection\thumbnail3.png" alt="" />
                     </div>
                   </div>
                 </div>
